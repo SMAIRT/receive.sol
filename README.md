@@ -1,5 +1,5 @@
 # receive.sol
-basic smart contract to hold ethereum as receive with owner control
+basic smart contract template to hold ethereum as receive with owner control
 
 Explanation:
 Receiving Ether: The receive() function is a special function in Solidity that does not take any arguments and does not return anything. It is executed on a call to the contract with empty calldata. This is the function that allows the contract to receive Ether directly.
